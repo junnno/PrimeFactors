@@ -25,30 +25,30 @@ class OptimusPrimer {
             BigInteger.valueOf(7)
     );
 
-    List<BigInteger> factorizeLooping(BigInteger num) {
+    List<BigInteger> factorizeLooping(BigInteger inputNum) {
         List<BigInteger> list = new ArrayList<>();
-        if (num.compareTo(BigInteger.ZERO) < 0) {
+        if (inputNum.compareTo(BigInteger.ZERO) < 0) {
             System.out.println("Negative Number");
             throw new IllegalArgumentException();
-        } else if (num.compareTo(BigInteger.valueOf(2)) < 0){
+        } else if (inputNum.compareTo(BigInteger.valueOf(2)) < 0){
             System.out.println("Input was 1");
             return list;
         }
-        int ctr = 0;
-        while (ctr < divisors.size()) {
-            BigInteger prime = divisors.get(ctr);
-            if (divisors.contains(num) || num.compareTo(prime.pow(2)) < 0) {
+        int index = 0;
+        while (index < divisors.size()) {
+            BigInteger prime = divisors.get(index);
+            if (divisors.contains(inputNum)) {
                 //Check kung kaya pa mag next round
-                list.add(num);
+                list.add(inputNum);
                 System.out.println(list.toString());
                 return list;
-            } else if (num.mod(prime).equals(BigInteger.ZERO)) {
+            } else if (inputNum.mod(prime).equals(BigInteger.ZERO)) {
                 //Check if kaya pa ulitin si prime
                 list.add(prime);
-                num = num.divide(prime);
+                inputNum = inputNum.divide(prime);
             } else {
                 //Next prime na
-                ctr++;
+                index++;
             }
         }
         return list;

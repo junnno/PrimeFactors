@@ -19,22 +19,6 @@ class OptimusPrimer {
 
     private List<Integer> divisors = Arrays.asList(2, 3, 5);
 
-    List<Integer> factorize(int num) {
-        List<Integer> list = new ArrayList<>();
-
-        if (num < 0) {
-            throw new IllegalArgumentException();
-        }
-
-        int max = num;
-
-        if (max >= divisors.get(divisors.size() - 1)) {
-            list.add(max);
-        }
-
-        return list;
-    }
-
     List<Integer> factorizeLooping(int num) {
         List<Integer> list = new ArrayList<>();
         if (num < 0) {

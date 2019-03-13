@@ -19,10 +19,14 @@ should return list of [3,5] when input is 15
 class OptimusPrimer {
 
     private List<BigInteger> divisors = Arrays.asList(
-            BigInteger.valueOf(2),
-            BigInteger.valueOf(3),
-            BigInteger.valueOf(5),
-            BigInteger.valueOf(7)
+            BigInteger.valueOf(2), BigInteger.valueOf(3), BigInteger.valueOf(5),
+            BigInteger.valueOf(7), BigInteger.valueOf(11), BigInteger.valueOf(13),
+            BigInteger.valueOf(17), BigInteger.valueOf(19), BigInteger.valueOf(23),
+            BigInteger.valueOf(29), BigInteger.valueOf(31), BigInteger.valueOf(37),
+            BigInteger.valueOf(41), BigInteger.valueOf(43), BigInteger.valueOf(47),
+            BigInteger.valueOf(53), BigInteger.valueOf(59), BigInteger.valueOf(61),
+            BigInteger.valueOf(67), BigInteger.valueOf(71), BigInteger.valueOf(73),
+            BigInteger.valueOf(79), BigInteger.valueOf(83), BigInteger.valueOf(89), BigInteger.valueOf(97)
     );
 
     List<BigInteger> factorizeLooping(BigInteger inputNum) {
@@ -31,21 +35,21 @@ class OptimusPrimer {
             System.out.println("Negative Number");
             throw new IllegalArgumentException();
         } else if (inputNum.compareTo(BigInteger.valueOf(2)) < 0){
-            System.out.println("Input was 1");
+            System.out.println("[]");
             return list;
         }
         int index = 0;
         while (index < divisors.size()) {
-            BigInteger prime = divisors.get(index);
+            BigInteger primeDivisor = divisors.get(index);
             if (divisors.contains(inputNum)) {
                 //Check kung kaya pa mag next round
                 list.add(inputNum);
                 System.out.println(list.toString());
                 return list;
-            } else if (inputNum.mod(prime).equals(BigInteger.ZERO)) {
+            } else if (inputNum.mod(primeDivisor).equals(BigInteger.ZERO)) {
                 //Check if kaya pa ulitin si prime
-                list.add(prime);
-                inputNum = inputNum.divide(prime);
+                list.add(primeDivisor);
+                inputNum = inputNum.divide(primeDivisor);
             } else {
                 //Next prime na
                 index++;

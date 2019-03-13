@@ -104,4 +104,11 @@ public class OptimusPrimerTest {
                 BigInteger.valueOf(2), BigInteger.valueOf(2));
         assertEquals(list, primer.factorizeLooping(BigInteger.valueOf((long) Math.pow(2, 32))));
     }
+
+    @Test
+    public void should_return_2_13_when_input_is_26() {
+        OptimusPrimer primer = new OptimusPrimer();
+        List<BigInteger> list = Arrays.asList(BigInteger.valueOf(2), BigInteger.valueOf(13));
+        assertEquals(list, primer.factorizeLooping(BigInteger.valueOf(26)));
+    }
 }

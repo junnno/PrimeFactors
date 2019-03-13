@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62cb380d-7c24-4145-bda9-37e9aa53e9dc" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PrimeFactors/org/prime/OptimusPrimer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PrimeFactors/org/prime/OptimusPrimer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/PrimeFactors/org/prime/OptimusPrimerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PrimeFactors/org/prime/OptimusPrimerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/prime/OptimusPrimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/prime/OptimusPrimer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/prime/OptimusPrimerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/prime/OptimusPrimerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +28,8 @@
       <file leaf-file-name="OptimusPrimerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/prime/OptimusPrimerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="1445">
+              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,8 +40,8 @@
       <file leaf-file-name="OptimusPrimer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/prime/OptimusPrimer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+            <state relative-caret-position="306">
+              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,8 +72,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/org/prime/OptimusPrimerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/prime/OptimusPrimer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/prime/OptimusPrimerTest.java" />
       </list>
     </option>
   </component>
@@ -93,61 +97,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="PrimeFactors" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PrimeFactors" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PrimeFactors" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PrimeFactors" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PrimeFactors" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PrimeFactors" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PrimeFactors" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PrimeFactors" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PrimeFactors" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PrimeFactors" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PrimeFactors" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PrimeFactors" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PrimeFactors" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PrimeFactors" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="prime" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -204,29 +154,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="OptimusPrimerTest.should_return_2_3_when_input_is_6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PrimeFactors" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.prime.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.prime" />
-      <option name="MAIN_CLASS_NAME" value="org.prime.OptimusPrimerTest" />
-      <option name="METHOD_NAME" value="should_return_2_3_when_input_is_6" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="OptimusPrimerTest.should_return_2_when_input_is_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PrimeFactors" />
       <extension name="coverage">
@@ -240,6 +167,29 @@
       <option name="PACKAGE_NAME" value="org.prime" />
       <option name="MAIN_CLASS_NAME" value="org.prime.OptimusPrimerTest" />
       <option name="METHOD_NAME" value="should_return_2_when_input_is_2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="OptimusPrimerTest.should_return_32_2s_when_input_is_2_raised_to_32" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PrimeFactors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.prime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.prime" />
+      <option name="MAIN_CLASS_NAME" value="org.prime.OptimusPrimerTest" />
+      <option name="METHOD_NAME" value="should_return_32_2s_when_input_is_2_raised_to_32" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -273,7 +223,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="OptimusPrimerTest.should_return_list_of_2_when_input_is_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OptimusPrimerTest.should_throw_exception_when_input_is_negative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PrimeFactors" />
       <extension name="coverage">
         <pattern>
@@ -285,7 +235,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="org.prime" />
       <option name="MAIN_CLASS_NAME" value="org.prime.OptimusPrimerTest" />
-      <option name="METHOD_NAME" value="should_return_list_of_2_when_input_is_2" />
+      <option name="METHOD_NAME" value="should_throw_exception_when_input_is_negative" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -335,19 +285,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.OptimusPrimerTest.should_return_empty_list_when_input_is_1" />
       <item itemvalue="JUnit.OptimusPrimerTest" />
-      <item itemvalue="JUnit.OptimusPrimerTest.should_return_list_of_2_when_input_is_2" />
+      <item itemvalue="JUnit.OptimusPrimerTest.should_return_32_2s_when_input_is_2_raised_to_32" />
+      <item itemvalue="JUnit.OptimusPrimerTest.should_return_empty_list_when_input_is_1" />
+      <item itemvalue="JUnit.OptimusPrimerTest.should_throw_exception_when_input_is_negative" />
       <item itemvalue="JUnit.OptimusPrimerTest.should_return_2_when_input_is_2" />
-      <item itemvalue="JUnit.OptimusPrimerTest.should_return_2_3_when_input_is_6" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.OptimusPrimerTest" />
-        <item itemvalue="JUnit.OptimusPrimerTest.should_return_2_3_when_input_is_6" />
+        <item itemvalue="JUnit.OptimusPrimerTest.should_return_32_2s_when_input_is_2_raised_to_32" />
         <item itemvalue="JUnit.OptimusPrimerTest.should_return_2_when_input_is_2" />
-        <item itemvalue="JUnit.OptimusPrimerTest.should_return_list_of_2_when_input_is_2" />
         <item itemvalue="JUnit.OptimusPrimerTest.should_return_empty_list_when_input_is_1" />
+        <item itemvalue="JUnit.OptimusPrimerTest.should_throw_exception_when_input_is_negative" />
       </list>
     </recent_temporary>
   </component>
@@ -363,44 +313,44 @@
       <updated>1551853901871</updated>
       <workItem from="1551853905301" duration="4556000" />
       <workItem from="1552382143553" duration="291000" />
-      <workItem from="1552437207689" duration="2366000" />
+      <workItem from="1552437207689" duration="6703000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OptimusPrimerTest - 2019.03.13 at 08h 53m 05s.xml">
+    <history-entry file="OptimusPrimerTest - 2019.03.13 at 10h 56m 14s.xml">
       <configuration name="OptimusPrimerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OptimusPrimerTest_should_return_2_3_when_input_is_6 - 2019.03.13 at 08h 53m 15s.xml">
-      <configuration name="OptimusPrimerTest.should_return_2_3_when_input_is_6" configurationId="JUnit" />
+    <history-entry file="OptimusPrimerTest_should_return_empty_list_when_input_is_1 - 2019.03.13 at 10h 57m 37s.xml">
+      <configuration name="OptimusPrimerTest.should_return_empty_list_when_input_is_1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OptimusPrimerTest - 2019.03.13 at 08h 54m 54s.xml">
+    <history-entry file="OptimusPrimerTest - 2019.03.13 at 10h 57m 40s.xml">
       <configuration name="OptimusPrimerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OptimusPrimerTest - 2019.03.13 at 08h 55m 25s.xml">
+    <history-entry file="OptimusPrimerTest_should_return_2_when_input_is_2 - 2019.03.13 at 10h 59m 44s.xml">
+      <configuration name="OptimusPrimerTest.should_return_2_when_input_is_2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OptimusPrimerTest - 2019.03.13 at 10h 59m 59s.xml">
       <configuration name="OptimusPrimerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OptimusPrimerTest - 2019.03.13 at 08h 56m 04s.xml">
+    <history-entry file="OptimusPrimerTest_should_return_32_2s_when_input_is_2_raised_to_32 - 2019.03.13 at 11h 00m 40s.xml">
+      <configuration name="OptimusPrimerTest.should_return_32_2s_when_input_is_2_raised_to_32" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OptimusPrimerTest_should_return_32_2s_when_input_is_2_raised_to_32 - 2019.03.13 at 11h 06m 55s.xml">
+      <configuration name="OptimusPrimerTest.should_return_32_2s_when_input_is_2_raised_to_32" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OptimusPrimerTest_should_return_32_2s_when_input_is_2_raised_to_32 - 2019.03.13 at 11h 07m 12s.xml">
+      <configuration name="OptimusPrimerTest.should_return_32_2s_when_input_is_2_raised_to_32" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OptimusPrimerTest - 2019.03.13 at 11h 09m 34s.xml">
       <configuration name="OptimusPrimerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OptimusPrimerTest - 2019.03.13 at 08h 56m 23s.xml">
-      <configuration name="OptimusPrimerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OptimusPrimerTest - 2019.03.13 at 08h 56m 30s.xml">
-      <configuration name="OptimusPrimerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OptimusPrimerTest - 2019.03.13 at 08h 56m 44s.xml">
-      <configuration name="OptimusPrimerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OptimusPrimerTest - 2019.03.13 at 08h 57m 16s.xml">
-      <configuration name="OptimusPrimerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OptimusPrimerTest - 2019.03.13 at 08h 59m 39s.xml">
+    <history-entry file="OptimusPrimerTest - 2019.03.13 at 11h 09m 53s.xml">
       <configuration name="OptimusPrimerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7213000" />
+    <option name="totallyTimeSpent" value="11550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -420,7 +370,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32937366" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -486,8 +436,50 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="9" />
     </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>num.compareTo(BigInteger.valueOf(2))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>num.compareTo(BigInteger.valueOf(2)) &lt; 0</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>num.compareTo(BigInteger.valueOf(2)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>num.compareTo(BigInteger.ZERO)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>BigInteger.ONE.compareTo(BigInteger.NEGATIVE_ONE);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>num</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>num.compareTo(BigInteger.ZERO) &lt; 0</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/org/prime/OptimusPrimerTest.java">
@@ -563,10 +555,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/math/BigInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="2455" column="22" selection-start-line="2455" selection-start-column="22" selection-end-line="2455" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/prime/OptimusPrimerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="1445">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -575,8 +581,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/prime/OptimusPrimer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+        <state relative-caret-position="306">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

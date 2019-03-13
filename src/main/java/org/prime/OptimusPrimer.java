@@ -1,5 +1,6 @@
 package org.prime;
 
+import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -17,45 +18,34 @@ should return list of [3,5] when input is 15
 
 class OptimusPrimer {
 
-    private List<Integer> divisors = Arrays.asList(2, 3, 5);
+    private List<BigInteger> divisors = Arrays.asList(
+            BigInteger.valueOf(2),
+            BigInteger.valueOf(3),
+            BigInteger.valueOf(5),
+            BigInteger.valueOf(7)
+    );
 
-    List<Integer> factorize(int num) {
-        List<Integer> list = new ArrayList<>();
-
-        if (num < 0) {
-            throw new IllegalArgumentException();
-        }
-
-        int max = num;
-
-        if (max >= divisors.get(divisors.size() - 1)) {
-            list.add(max);
-        }
-
-        return list;
-    }
-
-    List<Integer> factorizeLooping(int num) {
-        List<Integer> list = new ArrayList<>();
-        if (num < 0) {
+    List<BigInteger> factorizeLooping(BigInteger num) {
+        List<BigInteger> list = new ArrayList<>();
+        if (num.compareTo(BigInteger.ZERO) < 0) {
             System.out.println("Negative Number");
             throw new IllegalArgumentException();
-        } else if (num < 2) {
+        } else if (num.compareTo(BigInteger.valueOf(2)) < 0){
             System.out.println("Input was 1");
             return list;
         }
         int ctr = 0;
         while (ctr < divisors.size()) {
-            int prime = divisors.get(ctr);
-            if (divisors.contains(num) || num < prime * prime) {
+            BigInteger prime = divisors.get(ctr);
+            if (divisors.contains(num) || num.compareTo(prime.pow(2)) < 0) {
                 //Check kung kaya pa mag next round
                 list.add(num);
                 System.out.println(list.toString());
                 return list;
-            } else if (num % prime == 0) {
+            } else if (num.mod(prime).equals(BigInteger.ZERO)) {
                 //Check if kaya pa ulitin si prime
                 list.add(prime);
-                num = num / prime;
+                num = num.divide(prime);
             } else {
                 //Next prime na
                 ctr++;

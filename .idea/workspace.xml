@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="62cb380d-7c24-4145-bda9-37e9aa53e9dc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/prime/OptimusPrimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/prime/OptimusPrimer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/prime/OptimusPrimerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/prime/OptimusPrimerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +36,8 @@
       <file leaf-file-name="OptimusPrimer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/prime/OptimusPrimer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+            <state relative-caret-position="365">
+              <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -364,7 +363,7 @@
       <updated>1551853901871</updated>
       <workItem from="1551853905301" duration="4556000" />
       <workItem from="1552382143553" duration="291000" />
-      <workItem from="1552437207689" duration="1754000" />
+      <workItem from="1552437207689" duration="2366000" />
     </task>
     <servers />
   </component>
@@ -401,7 +400,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6601000" />
+    <option name="totallyTimeSpent" value="7213000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -576,8 +575,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/prime/OptimusPrimer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+        <state relative-caret-position="365">
+          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

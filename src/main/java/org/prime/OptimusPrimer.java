@@ -47,7 +47,7 @@ class OptimusPrimer {
         int ctr = 0;
         while (ctr < divisors.size()) {
             int prime = divisors.get(ctr);
-            if (num < prime * prime) {
+            if (divisors.contains(num) || num < prime * prime) {
                 //Check kung kaya pa mag next round
                 list.add(num);
                 System.out.println(list.toString());
